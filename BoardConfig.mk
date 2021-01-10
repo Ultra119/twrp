@@ -88,3 +88,12 @@ TW_USE_TOOLBOX := true
 TW_OREO_MR1_F2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_INCLUDE_NTFS_3G := true
+
+#SHRP
+SHRP_DEVICE_CODE := s2
+SHRP_PATH := device/leeco/s2$(SHRP_DEVICE_CODE)
+SHRP_MAINTAINER := Ultra119
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A_Only
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EDL_MODE := 1
